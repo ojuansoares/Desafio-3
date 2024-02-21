@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <title>{{title}}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <body style="background-color: white;"></body>
+<header>
+
+  <div class="container"></div>
+
+    <nav class="navbar navbar-expand-lg" data-bs-theme="white">
+        <div class="container-fluid">
+            <a href="/" style="text-decoration: none;"><img src="static/images/logocurso.png" style="width: 28vh;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active text-black fw-semibold" aria-current="page" style="font-size: 3.5vh;" href="/">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-black fw-semibold" style="font-size: 3.5vh;" href="/contatos">Contato</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+
+</header>
+
+<main>
+    {% block content %}
+
+    {% endblock %}
+</main>
+
+<footer>
+
+    <div class="d-flex justify-content-around flex-wrap">
+
+  <div style="background-color: rgb(85, 85, 85); width: 100%; margin-top: 30px;">
+    <div class="d-flex mb-3 flex-wrap align-items-center justify-content-around" style="margin-top: 15px;">
+      <div class="p-2 fs-5 text-white" style="margin-top: 30px;">
+        Contate-me: 
+        <a href="/contatos"><button type="button" class="btn btn-danger">AQUI</button></a>
+      </div>
+      <div class="p-2 fs-5 text-white" style="margin-top: 30px;">
+       Redes Sociais:
+        <a href="https://www.instagram.com/studiogasproducoes" target="_blank"><img class="opacity-50" src="static/images/insta.png" style="width: 45px; height: 45px; margin-right: 5px;" alt="insta"></a>
+        <a href="https://www.youtube.com/@Gilberto-Soares" target="_blank"><img class="opacity-50" src="static/images/yt.png" style="width: 55px; height: 40px; margin-right: 5px;" alt="youtube"></a>
+      </div>
+      <div class="p-2 text-white" style="margin-top: 30px;">Copyright © 2024 Gilberto Soares</div>
+    </div>
+  </div>
+
+
+</footer>
+<script src="static/css/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
