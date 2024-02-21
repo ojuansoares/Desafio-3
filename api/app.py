@@ -39,9 +39,9 @@ def enviar_email():
 def hello_world():
     return render_template("home.html", title = "Curso de Violão - Gilberto Soares")
 
-@app.route("/contatos", methods=['GET', 'POST'])
-def contatos():
-    return render_template("contatos.html", title = "Contatos")
+@app.route("/contato", methods=['GET', 'POST'])
+def contato():
+    return render_template("contato.html", title = "Contato")
 
 if __name__ == '__main__':
     app.run(debug=True)
