@@ -12175,8 +12175,8 @@ textarea.form-control-lg {
   justify-content: center;
   gap: 20px;
   width: auto;
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
 .perfil_foto{
@@ -12200,6 +12200,16 @@ textarea.form-control-lg {
 }
 
 @media (width <= 1000px) {
+
+  .conteudo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 20px;
+    width: auto;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
 
   .perfil_foto{
     width: 32vh;
