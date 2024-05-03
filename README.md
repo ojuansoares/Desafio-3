@@ -1,6 +1,14 @@
 # SITE DE CURSO DE VIOLÃO
 
 <br>
+<picture>
+  <img alt="apresentation gif" src="api/static/images/project-apresentation.gif">
+</picture>
+<br>
+
+## Acesse o Projeto [Clicando aqui!](https://cursodeviolao-gsstudioproducoes.vercel.app/)
+
+<br>
 
 ## Tecnologias Utilizadas no Projeto
 
